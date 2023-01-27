@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+body {
+    padding: 0;
+    margin-left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &__world {
+        height: 20px;
+        font-size: 14px;
+        width: 245px;
+        font-family: 'Nunito Sans', sans-serif;
+        ;
+    }
+
+    &__div {
+        height: 17px;
+        width: 84px;
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+
+        &__logo {
+            width: 16px;
+            height: 16px;
+        }
+
+        &__text {
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 12px;
+            height: 16px;
+            width: 100px;
+            margin-left: 7px;
+        }
+    }
+}
+
+.form--search {
+    width: 343px;
+    height: 48px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 24px;
+
+    &__shape {
+        position: absolute;
+        height: 15.56px;
+        width: 15.56px;
+        margin-left: 32px;
+    }
+
+    &__input--text {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        border: none;
+    }
+}
